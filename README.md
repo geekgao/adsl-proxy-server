@@ -21,5 +21,5 @@
         PORT-代理端口号
         HTTP_CHANGE_STATUS_API-接口地址HOST部分  
 
-    配置好以后执行dial.exe便可以启动代理服务，端口号为配置文件中定义的PORT，IP地址会通过配置文件中指定的接口更新到代理库服务；
+    配置好以后执行server.exe便可以启动代理服务，端口号为配置文件中定义的PORT，IP地址会通过配置文件中指定的接口更新到代理库服务；
     客户端使用/get?type=dynamic_http拿到最新的动态代理服务器地址。
